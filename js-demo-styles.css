@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+@font-face {
+   font-family: Segment14;
+   src: url('segment14.woff') format('woff'),
+        url('segment14.ttf') format('truetype');
+}
+
+html {
+   background-color: black;
+}
+
+body {
+   padding: 20px;
+}
+
+h1 {
+   color: white;
+   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+   width: 400px;
+   text-align: center;
+}
+
+div#clock {
+   border: 5px solid rgb(255, 0, 132);
+   border-radius: 20px;
+   width: 400px;
+}
+div#date, div#time {
+   font-size: 1.8em;
+   color:rgb(255, 88, 163);
+   font-family: Segment14;
+   text-shadow: 1px 1px 1px rgb(255, 238, 238), 3px 3px 10px rgb(255, 177, 219);
+   text-align: center;
+   margin: 15px auto;
+}
+
+div#wday {
+   font-size: 2.5em;
+   color:rgb(255, 255, 255);
+   font-family: Segment14;
+   text-shadow: 3px 3px 3px rgb(250, 74, 112), 3px 3px 10px white;
+   text-align: center;
+   margin: 15px auto;
+   letter-spacing: 0.25em;
+}
